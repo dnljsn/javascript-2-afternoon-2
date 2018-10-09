@@ -34,8 +34,11 @@ var arr = [40,50,60];
   Return the last item in the given array.
 */
 
-//Code Here
-
+function last(arr){
+  var index = arr.length-1;
+  return arr[index];
+  
+}
 
 
 ////////// PROBLEM 3 //////////
