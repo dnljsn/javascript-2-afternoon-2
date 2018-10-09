@@ -89,7 +89,12 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
   Return an array that contains the even numbers from the nums array.
 */
 
-//Code Here
+function evenFinder (nums){
+  var evenNums = nums.filter((num) => num % 2 === 0)
+  return evenNums;
+}
+evenFinder(nums);
+
 
 
 
