@@ -37,7 +37,6 @@ var arr = [40,50,60];
 function last(arr){
   var index = arr.length-1;
   return arr[index];
-  
 }
 
 
